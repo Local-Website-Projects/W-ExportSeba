@@ -1,50 +1,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap');
-/**
 
-  1. General
-     - Variables
-     - Extra-outer
-
-  2. Spacing
-
-  3. Color
-     - Skin-color, Skin-bg-color, Skin-border-color
-     - darkGrey-color, darkGrey-bg-color
-     - white-color, white-bg-color, white-border-color
-     - Grey-color, Grey-bg-color, grey-border-color
-
-  4. Pre-loader
-
-  5. SocialIcon / TooltipTop
-
-  6. Slick_dots/arrows
-
-  7. TopBar
-
-  8. Header
-     - SiteBrand(logo)
-     - SiteNavigation(Menu)
-     - side-menu
-
-  9. Footer
-     - FirstFooter
-     - SecondFooter
- 
-  10. GoTop BUtton
-  
-  11. Page-Title-Row
-
-  12. Inner-Pages
-      - single-pages-content
-      - Classic_Blog
-      - Single_Blog
-      - Contact_page
-      - Error_page
-      - Map
-
-**/
  
  
 /* ===============================================
@@ -78,17 +35,17 @@ p {
     margin: 0 0 15px; 
 }
 *::-moz-selection { 
-    background: #e29c4c; 
+    background: #4aa3d8;;
     color: #fff; 
     text-shadow: none; 
 }
 ::-moz-selection { 
-    background: #e29c4c; 
+    background: #4aa3d8;;
     color: #fff;
     text-shadow: none; 
 }
 ::selection { 
-    background: #e29c4c; 
+    background: #4aa3d8;;
     color: #fff; 
     text-shadow: none; 
 }
@@ -211,7 +168,7 @@ menu, ol, ul {
     --base-bodyfont: 'Poppins', sans-serif;
     --base-bodyfont-Size: 15px;
     --base-bodyfont-color: #616161;    
-    --base-skin: #e29c4c;
+    --base-skin: #4aa3d8;;
     --base-dark: #000000;
     --base-grey: #f7f7f7;
     --base-white: #ffffff;    

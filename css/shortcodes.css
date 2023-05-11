@@ -1053,7 +1053,7 @@ section { counter-reset:container}
 .featured-icon-box.style1 {
     overflow: hidden;
     position: relative;
-    text-align: left;
+    text-align: center;
 }
 .featured-icon-box.style1 .prt-icon{
     -webkit-backface-visibility: hidden;
@@ -1447,7 +1447,6 @@ div:hover > .prt-box-view-overlay:before, div:hover > .prt-box-view-content-inne
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
 .slick-slide.slick-current.slick-active .featured-imagebox-service.style1 .featured-desc p{
@@ -4120,7 +4119,7 @@ span.marque-text i {
     width: 80px;
     cursor: pointer;
     box-sizing: border-box;
-    background: #000;
+    background: #4aa3d8;;
     border-left:1px solid rgb(255 255 255 / 30%);
     border-right: 1px solid transparent;
     transition: border-color .35s ease-out .7s;
