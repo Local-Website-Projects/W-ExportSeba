@@ -1,17 +1,24 @@
+<?php
+include ('config/dbconfig.php');
+$id = $_GET['id'];
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="Webizzy - Business Agency & Services Html Template" >
-    <meta name="description" content="Webizzy - Business Agency & Services Html Template" >
-    <meta name="keywords" content="Webizzy - Business Agency & Services Html Template, themes & template, html5 template, WordPress theme, unlimited colors available, ui/ux,ui/ux design, best html template, html template, html, JavaScript, best css theme,css3, elementor theme, latest premium themes 2023, latest premium templates 2023, preyan technosys Pvt.Ltd,cymol themes, themetech mount, Web 3.0, multi-theme, website theme and template, woocommerce, bootstrap template, web templates, responsive theme,services,web design and development, business, company, entrepreneurlife, technology, social media marketing, marketing digital, business man, entrepreneurial, start ups, entrepreneurship,  accountant, adviser, consultancy, corporate,enterprise, finance, legal adviser, marketing, meeting, responsive, slider revolution, traders" >
+    <meta name="keywords" content="Webizzy - Business Agency & Services Html Template">
+    <meta name="description" content="Webizzy - Business Agency & Services Html Template">
+    <meta name="keywords"
+          content="Webizzy - Business Agency & Services Html Template, themes & template, html5 template, WordPress theme, unlimited colors available, ui/ux,ui/ux design, best html template, html template, html, JavaScript, best css theme,css3, elementor theme, latest premium themes 2023, latest premium templates 2023, preyan technosys Pvt.Ltd,cymol themes, themetech mount, Web 3.0, multi-theme, website theme and template, woocommerce, bootstrap template, web templates, responsive theme,services,web design and development, business, company, entrepreneurlife, technology, social media marketing, marketing digital, business man, entrepreneurial, start ups, entrepreneurship,  accountant, adviser, consultancy, corporate,enterprise, finance, legal adviser, marketing, meeting, responsive, slider revolution, traders">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Exportsheba -Contact Us | Export-Import Agency & Services</title>
+    <title>Exportsheba -Blog Export-Import Agency & Services</title>
 
-    <link rel="shortcut icon" href="images/favicon.png" >
+    <link rel="shortcut icon" href="images/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
@@ -47,9 +54,9 @@
                                 <!-- site-branding -->
                                 <div class="site-branding">
                                     <h1><a class="home-link" href="index.html" title="Webizzy" rel="home">
-                                        <img id="logo-img" height="40" width="180" class="img-fluid auto_size"
-                                             src="images/logo/logo.png" alt="logo-img">
-                                    </a></h1>
+                                            <img id="logo-img" height="40" width="180" class="img-fluid auto_size"
+                                                 src="images/logo/logo.png" alt="logo-img">
+                                        </a></h1>
                                 </div><!-- site-branding end -->
                                 <div class="menu-link">
                                     <div class="btn-show-menu-mobile menubar menubar--squeeze">
@@ -68,15 +75,15 @@
                                                 <a href="services.html" class="mega-menu-link">Services</a>
                                             </li>
 
-                                            <li class="mega-menu-item">
-                                                <a href="blog.php" class="mega-menu-link">Blog</a>
+                                            <li class="mega-menu-item active">
+                                                <a href="blog.html" class="mega-menu-link">Blog</a>
                                             </li>
 
                                             <li class="mega-menu-item">
                                                 <a href="about_us.html" class="mega-menu-link">About Us</a>
                                             </li>
 
-                                            <li class="mega-menu-item active">
+                                            <li class="mega-menu-item">
                                                 <a href="contact_us.html">Contact us</a>
                                             </li>
                                         </ul>
@@ -100,7 +107,8 @@
                                             <div class="prt-detailss">
                                                 <ul>
                                                     <li>Phone <br><span><a
-                                                            href="tel:8801316814564"> 01316814564 </a></span></li>
+                                                                    href="tel:8801316814564"> 01316814564 </a></span>
+                                                    </li>
                                                     <li>Email <br><span> <a href="mailto:exportshebabd@gmail.com">exportshebabd@gmail.com</a> </span>
                                                     </li>
                                                     <li>Address <br><span> South Banosree <br>Dhaka </span></li>
@@ -110,18 +118,18 @@
                                                 <li>
                                                     <a href="https://www.facebook.com/learnexportwithjahid/?paipv=0&eav=AfYf5QpJWzGRetfZT4_rVidqfDH2Ivb9rbzxGWiSr6kroNIo3bA_CoavjTfnwwyhWfA&_rdr"
                                                        target="_blank" rel="noopener" aria-label="facebook"><i
-                                                            class="icon-facebook"></i></a></li>
+                                                                class="icon-facebook"></i></a></li>
                                                 <li>
                                                     <a href="https://twitter.com/JahidHu35073028?fbclid=IwAR0fiAlIDjMqYzCgWCMxkXyJjXrvbENZVxHzF4-yMNzGV54-R8q_lj9f47M"
                                                        target="_blank" rel="noopener" aria-label="twitter"><i
-                                                            class="icon-twitter"></i></a></li>
+                                                                class="icon-twitter"></i></a></li>
                                                 <li>
                                                     <a href="https://www.instagram.com/jahid_hussain_nasim/?fbclid=IwAR2FUYotToEOyhZlajrS2aGQ-U-Y2PSipYBgKnLb1m2iWGGsh0V9aca0q14"
                                                        target="_blank" rel="noopener" aria-label="instagram"><i
-                                                            class="icon-instagram"></i></a></li>
+                                                                class="icon-instagram"></i></a></li>
                                                 <li><a href="https://www.youtube.com/Learnexportwithjahid"
                                                        target="_blank" rel="noopener" aria-label="youtube"><i
-                                                        class="icon-youtube"></i></a></li>
+                                                                class="icon-youtube"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -146,7 +154,7 @@
                     <div class="col-lg-12">
                         <div class="prt-page-title-row-heading">
                             <div class="page-title-heading">
-                                <h2 class="title">Contact Us</h2>
+                                <h2 class="title">Blog Details</h2>
                             </div>
                         </div>
                     </div>
@@ -155,95 +163,52 @@
         </div>
     </div>
     <!-- page-title end -->
+    <!-- breadcrumb area end -->
 
-    <!-- site-main start -->
-    <div class="site-main">
+    <!-- blog area start here -->
+    <section class="bd-blog-deatils-area pt-150 pb-100">
+        <div class="container">
+            <div class="row">
+                <?php
 
-        <section class="prt-row bg-layer-equal-height clearfix">
-            <div class="container">
-                <!-- row end -->
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="contentmap">
-                            <!-- section title -->
-                            <div class="section-title">
-                                <div class="title-header">
-                                    <h2 class="title">Contact Us</h2>
+                $blog= $connection->query("SELECT * FROM `blog` where id='$id'");
+                if($blog->num_rows >0){
+                while ($a=mysqli_fetch_assoc($blog)){
+                    $date = date_create($a["date"]);
+                    $date_formatted = date_format($date, "d M Y");
+                    ?>
+                    <div class="col-lg-8">
+                        <div class="blog__details--wrapper mr-50 mb-50">
+                            <div class="ablog ablog-4 mb-60">
+                                <div class="ablog__img">
+                                    <img src="assets/img/blog/<?php echo $a['image']?>" class="img-fluid" alt="img">
                                 </div>
-                                <div class="title-desc">
-                                    <p>আমাদের দেশ থেকে আরো নতুন নতুন দেশে কিভাবে পণ্য রপ্তানি করা যায়, কীভাবে বিশ্বব্যাপী নতুন ক্রেতাদের অনুসন্ধান করা যায়, কীভাবে রপ্তানিকৃত দেশে নতুন পণ্য বাজারজাত করা যায় এবং রপ্তানি ব্যবসায়ের সামগ্রিক পদ্ধতি এখান থেকে আপনারা জানতে পারবেন !</p>
-                                </div>
-                                <div class="map-contect mt-15">
-                                    <div><a href="tel:1234567890">+8801316814564</a></div>
-                                    <div class="email"><a href="mailto:exportshebabd@gmail.com">exportshebabd@gmail.com</a></div>
-                                </div>
-                                <div class="desc mt-40 res-575-mt-15">
-                                    <p class="mb-5"><span class="headingfont-color">Address:</span>  South Banosree</p>
-                                </div>
-                                <ul class="social-icons map-links mt-50">
-                                    <li><a href="https://www.facebook.com/learnexportwithjahid/?paipv=0&eav=AfYf5QpJWzGRetfZT4_rVidqfDH2Ivb9rbzxGWiSr6kroNIo3bA_CoavjTfnwwyhWfA&_rdr" rel="noopener" aria-label="facebook">Facebook</a></li>
-                                    <li><a href="https://twitter.com/JahidHu35073028?fbclid=IwAR0fiAlIDjMqYzCgWCMxkXyJjXrvbENZVxHzF4-yMNzGV54-R8q_lj9f47M" rel="noopener" aria-label="twitter">Twitter</a></li>
-                                    <li><a href="https://www.instagram.com/jahid_hussain_nasim/?fbclid=IwAR2FUYotToEOyhZlajrS2aGQ-U-Y2PSipYBgKnLb1m2iWGGsh0V9aca0q14" rel="noopener" aria-label="instagram">Instagram</a></li>
-                                    <li><a href="https://www.youtube.com/Learnexportwithjahid" rel="noopener" aria-label="youtube">Youtube</a></li>
-                                </ul>
-                            </div><!-- section title end -->
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="map-contect-form position-relative ml-110 res-1199-ml-0 res-1199-mt-30">
-                            <!-- section title -->
-                            <div class="section-title">
-                                <div class="title-header">
-                                    <h2 class="title">Get a free quote</h2>
-                                </div>
-                            </div><!-- section title end -->
-                            <form action="#" class="query_form wrap-form clearfix mt-45 res-575-mt-0 position-relative"  method="post">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <label>
-                                            <span class="text-input"><input name="name" type="text" value="" placeholder="First Name" required="required"></span>
-                                        </label>
+                                <div class="ablog__text ablog__text4">
+                                    <div class="bd-blog-meta mb-15">
+                                        <ul>
+                                            <a href="#"><i class="flaticon-profile"></i><?php echo $a['author']?></a> ||
+                                            <a href="#"><i class="flaticon-calendar"></i><?php echo $date_formatted;?></a> ||
+                                            <a href="#"><i class=""></i><?php echo $a['type']?></a>
+                                        </ul>
                                     </div>
-                                    <div class="col-md-12">
-                                        <label>
-                                            <span class="text-input"><input name="email" type="text" value="" placeholder="Email Address" required="required"></span>
-                                        </label>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <label>
-                                            <span class="text-input"><input name="phone" type="text" value="" placeholder="Phone" required="required"></span>
-                                        </label>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <label>
-                                            <span class="text-input"><textarea name="message" rows="4" placeholder="Message goes here" required="required"></textarea></span>
-                                        </label>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <button class="prt-btn prt-btn-size-sm prt-btn-shape-rounded prt-btn-style-border prt-btn-color-dark btn-hover mt-15" type="submit">Get a started</button>
-                                    </div>
+                                    <h2 class="bd-blog-details-title mb-25"><?php echo $a['heading']?></h2>
+                                    <p class="mb-30"><?php echo $a['details']?></p>
+
                                 </div>
-                            </form>
-                            <div class="form-icon">
-                                <img height="44" width="44" class="img-fluid " src="images/icon01.png" alt="logo-img">
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
+                    <?php
+                }
+                }
+                ?>
 
-        <div id="google_map" class="google_map">
-            <div class="map_container">
-                <div id="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7303.172362617661!2d90.42763391538477!3d23.76213191429345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b80a03c8e22f%3A0xd52685f4a2fe003c!2sBanasree%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1683799896886!5m2!1sen!2sbd" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
             </div>
         </div>
+    </section>
+    <!-- blog area end here -->
 
-    </div><!-- site-main end-->
-
-    <!-- footer start -->
+    <!-- footer area start here -->
     <footer class="footer widget-footer bg-base-dark text-base-white clearfix">
         <div class="second-footer">
             <div class="container-fluid">
@@ -253,14 +218,22 @@
                             <div class="footer-content-email mb-25">
                                 <p><a href="mailto:exportshebabd@gmail.com">exportshebabd@gmail.com</a></p>
                             </div>
-                            <p>আমাদের দেশ থেকে আরো নতুন নতুন দেশে কিভাবে পণ্য রপ্তানি করা যায়, কীভাবে বিশ্বব্যাপী নতুন ক্রেতাদের অনুসন্ধান করা যায়, কীভাবে রপ্তানিকৃত দেশে নতুন পণ্য বাজারজাত করা যায় এবং রপ্তানি ব্যবসায়ের সামগ্রিক পদ্ধতি এখান থেকে আপনারা জানতে পারবেন !</p>
+                            <p>আমাদের দেশ থেকে আরো নতুন নতুন দেশে কিভাবে পণ্য রপ্তানি করা যায়, কীভাবে বিশ্বব্যাপী নতুন
+                                ক্রেতাদের অনুসন্ধান করা যায়, কীভাবে রপ্তানিকৃত দেশে নতুন পণ্য বাজারজাত করা যায় এবং
+                                রপ্তানি ব্যবসায়ের সামগ্রিক পদ্ধতি এখান থেকে আপনারা জানতে পারবেন !</p>
                             <div class="widget_social_wrapper social-icons">
                                 <ul class="social-icons">
                                     <li>Social Share:</li>
-                                    <li><a href="https://m.facebook.com/learnexportwithjahid/" rel="noopener" aria-label="facebook"><i class="icon-facebook"></i></a></li>
-                                    <li><a href="https://twitter.com/JahidHu35073028?fbclid=IwAR0fiAlIDjMqYzCgWCMxkXyJjXrvbENZVxHzF4-yMNzGV54-R8q_lj9f47M" rel="noopener" aria-label="twitter"><i class="icon-twitter"></i></a></li>
-                                    <li><a href="https://www.youtube.com/Learnexportwithjahid" rel="noopener" aria-label="pinterest"><i class="icon-youtube"></i></a></li>
-                                    <li><a href="https://www.instagram.com/jahid_hussain_nasim/?fbclid=IwAR2FUYotToEOyhZlajrS2aGQ-U-Y2PSipYBgKnLb1m2iWGGsh0V9aca0q14" rel="noopener" aria-label="linkedin"><i class="icon-instagram"></i></a></li>
+                                    <li><a href="https://m.facebook.com/learnexportwithjahid/" rel="noopener"
+                                           aria-label="facebook"><i class="icon-facebook"></i></a></li>
+                                    <li>
+                                        <a href="https://twitter.com/JahidHu35073028?fbclid=IwAR0fiAlIDjMqYzCgWCMxkXyJjXrvbENZVxHzF4-yMNzGV54-R8q_lj9f47M"
+                                           rel="noopener" aria-label="twitter"><i class="icon-twitter"></i></a></li>
+                                    <li><a href="https://www.youtube.com/Learnexportwithjahid" rel="noopener"
+                                           aria-label="pinterest"><i class="icon-youtube"></i></a></li>
+                                    <li>
+                                        <a href="https://www.instagram.com/jahid_hussain_nasim/?fbclid=IwAR2FUYotToEOyhZlajrS2aGQ-U-Y2PSipYBgKnLb1m2iWGGsh0V9aca0q14"
+                                           rel="noopener" aria-label="linkedin"><i class="icon-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -296,11 +269,13 @@
                         <div class="widget widget_nav_menu clearfix">
                             <h3 class="widget-title">Our Newsletter</h3>
                             <div class="widget-form">
-                                <form id="subscribe-form" class="newsletter-form" method="post" action="#" data-mailchimp="true">
+                                <form id="subscribe-form" class="newsletter-form" method="post" action="#"
+                                      data-mailchimp="true">
                                     <div class="mailchimp-inputbox clearfix" id="subscribe-content">
                                         <p>
                                             <i class="flaticon flaticon-email"></i>
-                                            <input type="email" name="email" placeholder="Enter Your email address.." required=""></p>
+                                            <input type="email" name="email" placeholder="Enter Your email address.."
+                                                   required=""></p>
                                         <button class="submit" type="submit"><i class="fa fa-arrow-right"></i></button>
                                     </div>
                                     <p class="cookies">
@@ -319,7 +294,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <span class="copyright">Copyright © 2023 <a href="#">EXPORTSHEBA</a> Template Designed by <a href="https://www.frogbid.com/">FrogBID</a></span>
+                        <span class="copyright">Copyright © 2023 <a href="#">EXPORTSHEBA</a> Template Designed by <a
+                                    href="https://www.frogbid.com/">FrogBID</a></span>
                     </div>
                     <!--<div class="col-lg-12">
                         <div class="menu-footer-menu">
@@ -335,51 +311,45 @@
             </div>
         </div>
     </footer>
-    <!-- footer end -->
+    <!-- footer area end here -->
 
-    <!-- back-to-top start -->
-    <a id="totop" href="#top">
-        <i class="icon-angle-up"></i>
-    </a>
-    <!-- back-to-top end -->
-
-</div><!-- page end -->
+</main>
 
 
-<!-- Javascript -->
-<script src="js/jquery-3.6.3.min.js"></script>
-<script src="js/jquery-migrate-3.3.2.min.js"></script>
-<script src="js/bootstrap.bundle.js"></script>
-<script src="js/Scrolltrigger.js"></script>
-<script src="js/SplitText.js"></script>
-<script src="js/cursor.js"></script>
-<script src="js/gsap.js"></script>
-<script src="js/gsap.min.js"></script>
-<script src="js/gsap-animation.js"></script>
-<script src="js/jquery-validate.js"></script>
-<script src="js/jquery.prettyPhoto.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/jquery-waypoints.js"></script>
-<script src="js/numinate.min.js"></script>
-<script src="js/imagesloaded.min.js"></script>
-<script src="js/jquery-isotope.js"></script>
-<script src="js/circle-progress.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/aos.js"></script>
+    <!-- Javascript -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery-migrate-3.3.2.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/Scrolltrigger.js"></script>
+    <script src="js/SplitText.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/gsap.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/gsap-animation.js"></script>
+    <script src="js/jquery-validate.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery-waypoints.js"></script>
+    <script src="js/numinate.min.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/jquery-isotope.js"></script>
+    <script src="js/circle-progress.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/aos.js"></script>
 
-<script>
-    AOS.init({
-        offset: 120,
-        duration: 400,
-    });
-</script>
+    <script>
+        AOS.init({
+            offset: 120,
+            duration: 400,
+        });
+    </script>
 
-<!-- Revolution Slider -->
-<script src='revolution/js/revolution.tools.min.js'></script>
-<script src='revolution/js/rs6.min.js'></script>
-<script src="revolution/js/slider.js"></script>
-<!-- Javascript end-->
-
+    <!-- Revolution Slider -->
+    <script src='revolution/js/revolution.tools.min.js'></script>
+    <script src='revolution/js/rs6.min.js'></script>
+    <script src="revolution/js/slider.js"></script>
+    <!-- Javascript end-->
 </body>
+
 
 </html>
