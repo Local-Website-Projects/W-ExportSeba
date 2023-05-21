@@ -9,10 +9,10 @@ include('config/dbconfig.php');
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="Webizzy - Business Agency & Services Html Template">
-    <meta name="description" content="Webizzy - Business Agency & Services Html Template">
+    <meta name="keywords" content="Export Sheba">
+    <meta name="description" content="Export Sheba">
     <meta name="keywords"
-          content="Webizzy - Business Agency & Services Html Template, themes & template, html5 template, WordPress theme, unlimited colors available, ui/ux,ui/ux design, best html template, html template, html, JavaScript, best css theme,css3, elementor theme, latest premium themes 2023, latest premium templates 2023, preyan technosys Pvt.Ltd,cymol themes, themetech mount, Web 3.0, multi-theme, website theme and template, woocommerce, bootstrap template, web templates, responsive theme,services,web design and development, business, company, entrepreneurlife, technology, social media marketing, marketing digital, business man, entrepreneurial, start ups, entrepreneurship,  accountant, adviser, consultancy, corporate,enterprise, finance, legal adviser, marketing, meeting, responsive, slider revolution, traders">
+          content="Export Sheba">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Exportsheba -Blog Export-Import Agency & Services</title>
 
@@ -74,7 +74,7 @@ include('config/dbconfig.php');
                                             </li>
 
                                             <li class="mega-menu-item active">
-                                                <a href="blog.html" class="mega-menu-link">Blog</a>
+                                                <a href="blog.php" class="mega-menu-link">Blog</a>
                                             </li>
 
                                             <li class="mega-menu-item">

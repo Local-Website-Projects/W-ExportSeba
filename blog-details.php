@@ -11,10 +11,10 @@ $id = $_GET['id'];
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="Webizzy - Business Agency & Services Html Template">
-    <meta name="description" content="Webizzy - Business Agency & Services Html Template">
+    <meta name="keywords" content="Export Sheba">
+    <meta name="description" content="Export Sheba">
     <meta name="keywords"
-          content="Webizzy - Business Agency & Services Html Template, themes & template, html5 template, WordPress theme, unlimited colors available, ui/ux,ui/ux design, best html template, html template, html, JavaScript, best css theme,css3, elementor theme, latest premium themes 2023, latest premium templates 2023, preyan technosys Pvt.Ltd,cymol themes, themetech mount, Web 3.0, multi-theme, website theme and template, woocommerce, bootstrap template, web templates, responsive theme,services,web design and development, business, company, entrepreneurlife, technology, social media marketing, marketing digital, business man, entrepreneurial, start ups, entrepreneurship,  accountant, adviser, consultancy, corporate,enterprise, finance, legal adviser, marketing, meeting, responsive, slider revolution, traders">
+          content="Export Sheba">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Exportsheba -Blog Export-Import Agency & Services</title>
 
@@ -34,6 +34,27 @@ $id = $_GET['id'];
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <!-- REVOLUTION LAYERS STYLES -->
     <link rel='stylesheet' id='rs-plugin-settings-css' href="revolution/css/rs6.css">
+
+    <style>
+        .links ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+        }
+
+        .links li {
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .links li:hover {
+            text-decoration: underline;
+        }
+        .iconp{
+            cursor: pointer;
+        }
+    </style>
 
 </head>
 <body>
@@ -76,7 +97,7 @@ $id = $_GET['id'];
                                             </li>
 
                                             <li class="mega-menu-item active">
-                                                <a href="blog.html" class="mega-menu-link">Blog</a>
+                                                <a href="blog.php" class="mega-menu-link">Blog</a>
                                             </li>
 
                                             <li class="mega-menu-item">
@@ -181,16 +202,24 @@ $id = $_GET['id'];
                         <div class="blog__details--wrapper mr-50 mb-50">
                             <div class="ablog ablog-4 mb-60">
                                 <div class="ablog__img">
-                                    <img src="assets/img/blog/<?php echo $a['image']?>" class="img-fluid" alt="img">
+                                    <img src="images/blog/<?php echo $a['image']?>" class="img-fluid" alt="img">
                                 </div>
                                 <div class="ablog__text ablog__text4">
                                     <div class="bd-blog-meta mb-15">
                                         <ul>
                                             <a href="#"><i class="flaticon-profile"></i><?php echo $a['author']?></a> ||
                                             <a href="#"><i class="flaticon-calendar"></i><?php echo $date_formatted;?></a> ||
-                                            <a href="#"><i class=""></i><?php echo $a['type']?></a>
+                                            <a href="#"><i class=""></i><?php echo $a['type']?></a>||
                                         </ul>
                                     </div>
+                                    <span>Share On</span>
+                                    <span class="badge iconp social-share-url facebook"style="margin: 10px;background-color: #1877f2;">Facebook</span>
+                                    <span class="badge iconp social-share-url whatsapp"style="margin: 10px; background-color: #25d366;">Whatsapp</span>
+                                    <span class="badge iconp social-share-url linkedin"style="margin: 10px; background-color: #0077b5;">LinkedIn</span>
+                                    <span class="badge iconp social-share-url twitter"style="margin: 10px; background-color: #1da1f2;">Twitter</span>
+
+
+
                                     <h2 class="bd-blog-details-title mb-25"><?php echo $a['heading']?></h2>
                                     <p class="mb-30"><?php echo $a['details']?></p>
 
@@ -342,6 +371,47 @@ $id = $_GET['id'];
             offset: 120,
             duration: 400,
         });
+    </script>
+    <script>
+        setShareLinks();
+
+        function socialWindowScreen(url) {
+
+            var left = (screen.width - 570)/2;
+            var top = (screen.height - 570)/2;
+
+            var params = "menubar=no,toolbar=no,status=no,width=570,height=570,top="+top + ",left=" + left;
+
+            window.open(url,"NewWindow",params);
+        }
+
+
+
+
+        //
+        function  setShareLinks() {
+            var pageUrl = encodeURIComponent(document.URL);
+            var tweet = encodeURIComponent($("meta[property='og:description']").attr("content"));
+            console.log(pageUrl);
+
+
+            $(".social-share-url.facebook").on("click",function () {
+                url = "https://www.facebook.com/sharer.php?u=" +pageUrl;
+                socialWindowScreen(url);
+            })
+            $(".social-share-url.twitter").on("click",function () {
+                url = "https://www.twitter.com/intent/tweet?url=" +pageUrl + "&text=" +tweet;
+                socialWindowScreen(url);
+            })
+            $(".social-share-url.linkedin").on("click",function () {
+                url = "https://www.linkedin.com/shareArticle?mini=true&url=" +pageUrl;
+                socialWindowScreen(url);
+            })
+            $(".social-share-url.whatsapp").on("click",function () {
+                url = "https://wa.me/?text=" +pageUrl;
+                socialWindowScreen(url);
+            })
+        }
     </script>
 
     <!-- Revolution Slider -->
